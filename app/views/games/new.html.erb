@@ -7,6 +7,6 @@
 <form action="/score" method="post">
   <%= hidden_field_tag "authenticity_token", form_authenticity_token %>
   <%= hidden_field_tag "letters", @letters %>
-  <input type="text" name="word" placeholder="Write your answer here">
-  <input type="submit" Value="submit!">
+  <input class="user-input" type="text" name="word" placeholder="The longest word you could find...">
+  <input class="button" type="submit" Value="submit!">
 </form>
